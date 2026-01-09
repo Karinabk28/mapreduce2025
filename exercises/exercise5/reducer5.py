@@ -15,7 +15,7 @@ for line in sys.stdin:
     # Reinicia o total
     if oldKey and oldKey != thisKey:
         print(oldKey + "\t" + str(salesTotal))
-	oldKey = thisKey;
+        oldKey = thisKey;
         salesTotal = 0
 
     oldKey = thisKey

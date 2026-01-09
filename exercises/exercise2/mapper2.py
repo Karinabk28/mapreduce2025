@@ -8,7 +8,6 @@ for line in sys.stdin:
         # Comprobar que o custo e numerico
         try:
             float(cost)
-            print(store + "\t" + cost)
+            print(item + "\t" + cost)
         except ValueError:
             continue
-

@@ -11,4 +11,3 @@ for line in sys.stdin:
             print(store + "\t" + cost)
         except ValueError:
             continue
-
